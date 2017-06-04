@@ -7,7 +7,7 @@
 - 拖拽chrome-wechat-helper文件夹到chrome浏览器中
 
 # 使用
-- 进入https://wx.qq.com登陆微信
+- 进入https://wx.qq.com
 - 点击页面左上角"微信群发助手"
 - 选择需要群发的联系人并点击下一步
 - 输入群发信息
