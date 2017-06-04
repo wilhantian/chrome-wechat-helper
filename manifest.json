@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "微信群发助手",
+    "description": "微信群发助手 create by wilhan.tian",
+    "version": "1.0",
+
+    "permissions": [
+        "https://wx.qq.com/*"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://wx.qq.com/*"],
+        "css": ["my.css"],
+        "js": ["jquery.js", "my.js"]
+    }],
+    "web_accessible_resources": [
+        "popup.js"
+    ]
+}
